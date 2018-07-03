@@ -1,0 +1,28 @@
+<%- include('../sidebar.html') %>
+
+<div id='content'>
+  <div class='panel'>
+    <div class='header'>
+      <ul class='breadcrumb'>
+        <li><a href='/'>主页</a><span class='divider'>/</span></li>
+        <li class='active'>关于</li>
+      </ul>
+    </div>
+    <div class='inner topic'>
+      <div class="topic_content">
+        <%- helper.markdown(`
+### 关于
+RoboCup 2D模拟足球联赛是最古老的RoboCup足球模拟联赛。
+它是一系列以计算机模拟足球为基础的比赛。
+[more...](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League)     
+
+2d的环境，目前大部分高校和组织处于闭门造车的阶段，只有通过个别qq群进行交流，无法很好的将“资源”共享和交流。因此建立RoboCup2d论坛。      
+有愿意共同维护论坛的小哥哥，小姐姐们可以联系我哦。
+email: 'y#front.dog'.replace('#','@');
+
+`) %>
+      </div>
+    </div>
+  </div>
+</div>
+
