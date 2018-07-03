@@ -1,5 +1,4 @@
 # robocup2d
-[中文说明](./README-zh.md)
 [![powered by Egg.js][egg-image]][egg]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -15,7 +14,8 @@
 [david-url]: https://david-dm.org/cnodejs/egg-cnode
 [snyk-image]: https://snyk.io/test/github/cnodejs/egg-cnode/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/github/cnodejs/egg-cnode
-
+## 中文
+[中文说明](./README-zh.md)
 ## QuickStart
 
 <!-- add docs here for user -->

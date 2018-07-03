@@ -1,5 +1,5 @@
 # robocup2d
-2d的环境，目前大部分高校和组织处于闭门造车的阶段，只有通过个别qq群进行交流，无法很好的将“资源”共享和交流。因此建立RoboCup2d论坛。
+
 [![powered by Egg.js][egg-image]][egg]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -15,7 +15,8 @@
 [david-url]: https://david-dm.org/cnodejs/egg-cnode
 [snyk-image]: https://snyk.io/test/github/cnodejs/egg-cnode/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/github/cnodejs/egg-cnode
-
+## 简介
+2d的环境，目前大部分高校和组织处于闭门造车的阶段，只有通过个别qq群进行交流，无法很好的将“资源”共享和交流。因此建立RoboCup2d论坛。
 ## 快速开始
 
 <!-- add docs here for user -->
