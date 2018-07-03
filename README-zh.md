@@ -1,5 +1,5 @@
 # robocup2d
-[中文说明](./README-zh.md)
+2d的环境，目前大部分高校和组织处于闭门造车的阶段，只有通过个别qq群进行交流，无法很好的将“资源”共享和交流。因此建立RoboCup2d论坛。
 [![powered by Egg.js][egg-image]][egg]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -16,18 +16,18 @@
 [snyk-image]: https://snyk.io/test/github/cnodejs/egg-cnode/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/github/cnodejs/egg-cnode
 
-## QuickStart
+## 快速开始
 
 <!-- add docs here for user -->
 
 see [egg docs][egg] for more detail.
 
-### Environment Dependencies
+### 环境依赖
 
 - [redis](https://redis.io/)
 - [mongodb](https://www.mongodb.com/)
 
-#### macOS Install
+#### macOS 安装
 
 ```bash
 brew install redis mongodb
@@ -35,15 +35,15 @@ brew services start redis
 brew services start mongodb
 ```
 
-#### Linux Install
+#### Linux 安装
 
 TBD
 
-#### Windows Install
+#### Windows 安装
 
 TBD
 
-### Development
+### 如何开发
 
 ```bash
 $ npm i
@@ -51,7 +51,7 @@ $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+### 如何部署
 
 ```js 
 // {app_root}/config/config.prod.js
@@ -72,13 +72,13 @@ $ npm start
 $ npm stop
 ```
 
-### npm scripts
+### npm scripts脚本说明
 
 - Use `npm run lint` to check code style.
 - Use `npm test` to run unit test.
 - Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
 
-### Tutorials
+### docker部署教程
 
 - [Develop / Deploy with Docker](tutorials/Docker.md)
 
