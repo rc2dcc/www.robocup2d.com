@@ -55,10 +55,10 @@ module.exports = appInfo => {
 
   // 7牛的access信息，用于文件上传
   config.qn_access = {
-    accessKey: 'NryKyLkX_nWeFeAQU4DNbReLMNosrD4FQgBMJ9Jd',
-    secretKey: 'HajXVRe_UiLkY6LjgbFocCxKWXf4PLe9VTJ8w4xp',
-    bucket: 'robocup2dbbs',
-    origin: 'http://upload.robocup2d.com',
+    accessKey: '',
+    secretKey: '',
+    bucket: '',
+    origin: '',
     // 如果vps在国外，请使用 http://up.qiniug.com/ ，这是七牛的国际节点
     // 如果在国内，此项请留空
     uploadURL: 'http://xxxxxxxx',
@@ -121,10 +121,10 @@ module.exports = appInfo => {
     },
   };
 
-  // passport
+  // passport http://localhost:7001/passport/github/callback 
   config.passportGithub = {
-    key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || 'test',
-    secret: process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET || 'test',
+    key: process.env.EGG_PASSPORT_GITHUB_CLIENT_ID || '35fdc35ab601aa6959a3',
+    secret: process.env.EGG_PASSPORT_GITHUB_CLIENT_SECRET || 'cfdc3b4499a34909bd10cfcb2064553d63d08e17',
   };
 
   config.passportLocal = {
